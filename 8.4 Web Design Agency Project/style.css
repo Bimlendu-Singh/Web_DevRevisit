@@ -15,7 +15,23 @@ h1 {
 }
 
 .card {
-  display: inline;
+  display: inline-block;
+  width: 40%;
+}
+
+.card img {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 2%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
 
 footer {
