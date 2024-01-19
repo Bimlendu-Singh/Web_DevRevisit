@@ -14,8 +14,11 @@ h1 {
   font-size: 5rem;
 }
 
+.card {
+  display: inline;
+}
+
 footer {
   text-align: right;
   color: midnightblue;
 }
-
