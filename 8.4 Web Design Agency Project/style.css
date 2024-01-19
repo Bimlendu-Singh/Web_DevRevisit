@@ -16,16 +16,20 @@ h1 {
 
 .card {
   display: inline-block;
-  width: 40%;
+  width: 46%;
 }
 
 .card img {
-  height: 200px;
-  width: 200px;
+  /* height: 200px;
+  width: 200px; */
+  width: 46%;
   float: left;
-  margin-right: 2%;
+  margin-right: 8%;
 }
 
+/* .card p {
+  padding: 3%;
+} */
 .left {
   float: left;
 }
