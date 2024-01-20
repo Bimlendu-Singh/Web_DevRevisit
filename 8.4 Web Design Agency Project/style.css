@@ -62,7 +62,7 @@ footer {
   }
 }
 
-@media (min-width: 320px) and (max-width: 425px) {
+@media (max-width: 425px) {
   h1 {
     font-size: xx-large;
     text-align: center;
@@ -72,5 +72,19 @@ footer {
   .card {
     display: block;
     width: 100%;
+  }
+
+  .card img {
+    float: none;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+
+  .card-title {
+    text-align: center;
+  }
+
+  .card p {
+    text-align: center;
   }
 }
