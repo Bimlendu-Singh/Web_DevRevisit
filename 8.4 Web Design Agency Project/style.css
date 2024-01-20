@@ -51,6 +51,26 @@ footer {
 
 @media (min-width: 426px) and (max-width: 768px) {
   h1 {
-    font-size: small;
+    font-size: xx-large;
+    text-align: center;
+    margin: 8%;
+  }
+
+  .card {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  h1 {
+    font-size: xx-large;
+    text-align: center;
+    margin: 8%;
+  }
+
+  .card {
+    display: block;
+    width: 100%;
   }
 }
