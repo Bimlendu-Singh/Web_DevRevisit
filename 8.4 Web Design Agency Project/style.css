@@ -14,6 +14,10 @@ h1 {
   font-size: 5rem;
 }
 
+span {
+  color: chocolate;
+}
+
 .card {
   display: inline-block;
   width: 46%;
@@ -41,4 +45,12 @@ h1 {
 footer {
   text-align: right;
   color: midnightblue;
+}
+
+/* 426, 768 */
+
+@media (min-width: 426px) and (max-width: 768px) {
+  h1 {
+    font-size: small;
+  }
 }
