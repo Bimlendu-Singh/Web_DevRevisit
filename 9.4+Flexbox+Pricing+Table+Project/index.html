@@ -28,9 +28,9 @@
         margin: 0px;
       }
 
-      h2{
+      /* h2{
         margin: 0px;
-      }
+      } */
 
       .pricing-plan{
         display: inline-flex;
@@ -40,7 +40,7 @@
         justify-content: center;
         background-color: #f2f2f2;
         width: 30%;
-        height: 40%;
+        height: 44%;
         text-align: center;
         border-radius: 3%;
       }
@@ -60,15 +60,33 @@
       }
 
       .plan-button{
-        border: none;
+        border: 1px solid;
         background-color: #ff6600;
-        border-radius: 5%;
+        border-radius: 10%;
         padding: 3%;
         color: white;
+        margin: 0px;
       }
 
       /* Hint: What can you do with a media query and flexbox? */
-      @media (max-width: 1250px) {
+      @media (max-width: 1250px) 
+      {
+        .pricing-container
+        {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          /* font-size: 1.2rem; */
+       }
+
+       .pricing-plan{
+        display: flex;
+        flex-wrap: nowrap;
+       }
+
       }
 
       /* .plan-price{
@@ -86,7 +104,7 @@
         <ul class="plan-features">
           <li>✅ 10GB Storage</li><br>
           <li>✅ 1 User</li><br>
-          <li>🚫 Support</li><br>
+          <li>🚫 Support</li>
         </ul>
         <button class="plan-button">Sign Up</button>
       </div>
@@ -96,7 +114,7 @@
         <ul class="plan-features">
           <li>✅ 50GB Storage</li><br>
           <li>✅ 5 Users</li><br>
-          <li>✅ Phone &amp; Email Support</li><br>
+          <li>✅ Phone &amp; Email Support</li>
         </ul>
         <button class="plan-button">Sign Up</button>
       </div>
@@ -106,7 +124,7 @@
         <ul class="plan-features">
           <li>✅ 100GB Storage</li> <br>
           <li>✅ 10 Users</li> <br>
-          <li>✅ 24/7 Support</li> <br>
+          <li>✅ 24/7 Support</li> 
         </ul>
         <button class="plan-button">Sign Up</button>
       </div>
