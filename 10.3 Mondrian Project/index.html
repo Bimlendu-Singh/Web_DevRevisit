@@ -21,8 +21,8 @@
     */
     .container{
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: 320px 198px  153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
       gap: 9px;
       height: 748px;
       width: 748px;
@@ -34,49 +34,46 @@
       background-color:  #F9D01E;
     }
 
-    .item1{
-      height: 414px;
+     .item1{
+      /* height: 414px; */
       background-color: #E72F24;
-      width: 301px;
+      /* width: 301px; */
     }
 
     .item2{
-      height: 414px;
-      width: 438px;
+      /* height: 414px; */
+      /* width: 438px; */
       background-color: #F0F1EC;
+      grid-column: 2/5;
     }
 
     .item3{
-      height: 296px;
-      width: 320px;
+      /* height: 296px;
+      width: 320px; */
+      grid-row: 2/4;
       background-color: #F0F1EC;
-    }
+    } 
 
-    /* .item4{
-      height: 296px;
-      width: 360px;
+     .item4{
+      /* height: 296px;
+      width: 360px; */
+      grid-area: 2/2/4/4;
       background-color: #F0F1EC;
     }
 
     .item5{
-      height: 130px;
-      width: 50px;
       background-color: #004592;
     }
 
     .item6{
-      height: 20px;
-      width: 320px;
       background-color: #004592;
     }
 
     .item7{
-      height: 20px;
-      width: 198px;
-      background-color: #004592;
+      background-color: #F0F1EC;
     }
 
-    .item8{
+    /*.item8{
       height: 20px;
       width: 153px;
       background-color: #004592;
